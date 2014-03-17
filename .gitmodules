@@ -1,0 +1,3 @@
+[submodule "dictionary-module"]
+	path = dictionary-module
+	url = https://github.com/jaredmcdonald/dictionary-test.git
