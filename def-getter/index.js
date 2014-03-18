@@ -45,8 +45,7 @@ module.exports = function(word, callback) {
 				description: null
 			});
 		} else {
-			def = getRandomDefinition(definition.entry_list.entry)
-			callback(def);
+			callback(getRandomDefinition(definition.entry_list.entry));
 		}
 
 	});

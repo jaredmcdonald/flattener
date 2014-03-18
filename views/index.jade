@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  form(method="POST", action="/text")
+    textarea(placeholder="enter text", name="text")
+    input(type="submit")
+    -if(results)
+      section.results= text
